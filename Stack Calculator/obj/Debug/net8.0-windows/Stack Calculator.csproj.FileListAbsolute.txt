@@ -1,0 +1,40 @@
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.exe
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.deps.json
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.runtimeconfig.json
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.pdb
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator_MarkupCompile.cache
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator_MarkupCompile.lref
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.g.resources
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.AssemblyInfoInputs.cache
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.AssemblyInfo.cs
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.csproj.CoreCompileInputs.cache
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\refint\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.pdb
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.genruntimeconfig.cache
+C:\Users\49174\Desktop\CourseWork\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\ref\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.exe
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.deps.json
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.runtimeconfig.json
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\bin\Debug\net8.0-windows\Stack Calculator.pdb
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator_MarkupCompile.cache
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator_MarkupCompile.lref
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.g.resources
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.AssemblyInfoInputs.cache
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.AssemblyInfo.cs
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.csproj.CoreCompileInputs.cache
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\refint\Stack Calculator.dll
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.pdb
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\Stack Calculator.genruntimeconfig.cache
+C:\Users\49174\Desktop\CourseWorks\CourseWork1\CourseWork\Stack Calculator\obj\Debug\net8.0-windows\ref\Stack Calculator.dll
