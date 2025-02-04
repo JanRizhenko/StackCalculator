@@ -1,0 +1,59 @@
+﻿<Window x:Class="Stack_Calculator.Calculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stack_Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="584" Width="390" Icon="/Icon.png" MinWidth="390" MaxWidth="390" MaxHeight="587" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="menubutton">
+            <Setter Property="FontSize" Value="40"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderThickness="1" BorderBrush="Black">
+                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="center" VerticalAlignment="center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="Stack_Calculator" Background="#FF1B2320" MaxWidth="390" MaxHeight="568.04">
+        <TextBox x:Name="BoxMain" TextWrapping="Wrap" Margin="0,0,0,393" FontFamily="Arial" FontSize="24" Height="121" VerticalAlignment="Bottom" BorderBrush="White" Background="#FF1B2320" BorderThickness="5,5,4,5" Foreground="#FFFCFCFC" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right" SelectionBrush="White" AllowDrop="False" IsReadOnly="True"/>
+        <TextBox x:Name="Result" Margin="0,0,0,336" TextWrapping="Wrap" FontFamily="Arial" FontSize="20" IsUndoEnabled="False" Height="57" VerticalAlignment="Bottom" Grid.IsSharedSizeScope="True" Focusable="False" IsReadOnly="True"/>
+        <Button x:Name="Plus" Style="{StaticResource menubutton}"  Content="+" Margin="0,0,1,56" FontFamily="Arial" FontSize="24"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="1,1" HorizontalAlignment="Right" Width="75" Height="56" VerticalAlignment="Bottom" Background="#FF2D3533" Foreground="White" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Minus" Style="{StaticResource menubutton}" Content="-" Margin="0,0,1,112" FontSize="24" FontFamily="Arial Black"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Mul" Style="{StaticResource menubutton}"  Content="*" Margin="0,0,1,168" FontFamily="Cascadia Mono SemiBold" FontSize="24"  RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Dev" Style="{StaticResource menubutton}" Content="/" Margin="0,0,1,224" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Equals" Style="{StaticResource menubutton}" Content="=" HorizontalAlignment="Right" Height="56" Margin="0,0,1,1" VerticalAlignment="Bottom" Width="75" Background="#FFD296D2" FontSize="24" FontFamily="MS Reference Sans Serif" Foreground="White" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Three" Style="{StaticResource menubutton}" Content="3" HorizontalAlignment="Right" Height="56" Margin="0,0,76,56" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" FontFamily="Arial" Focusable="False"/>
+        <Button x:Name="Six" Style="{StaticResource menubutton}" Content="6" HorizontalAlignment="Right" Height="56" Margin="0,0,76,112" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" RenderTransformOrigin="0.531,0.367" Focusable="False"/>
+        <Button x:Name="Nine" Style="{StaticResource menubutton}" Content="9" HorizontalAlignment="Right" Height="56" Margin="0,0,76,168" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Eight" Style="{StaticResource menubutton}" Content="8" HorizontalAlignment="Right" Height="56" Margin="0,0,151,168" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Five" Style="{StaticResource menubutton}" Content="5" HorizontalAlignment="Right" Height="56" Margin="0,0,151,112" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Two" Style="{StaticResource menubutton}" Content="2" HorizontalAlignment="Right" Height="56" Margin="0,0,151,56" VerticalAlignment="Bottom" Width="75" Foreground="White" FontSize="24" BorderBrush="Black" Background="#FF373F3F" Focusable="False"/>
+        <Button x:Name="Seven" Style="{StaticResource menubutton}" Content="7" HorizontalAlignment="Right" Height="56" Margin="0,0,226,168" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Four" Style="{StaticResource menubutton}" Content="4" HorizontalAlignment="Right" Height="56" Margin="0,0,226,112" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="One" Style="{StaticResource menubutton}" Content="1" HorizontalAlignment="Right" Height="56" Margin="0,0,226,56" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black"  Focusable="False"/>
+        <Button x:Name="Zero" Style="{StaticResource menubutton}" Content="0" HorizontalAlignment="Right" Height="56" Margin="0,0,151,1" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Dot" Content="." Style="{StaticResource menubutton}" HorizontalAlignment="Right" Height="56" Margin="0,0,76,1" VerticalAlignment="Bottom" Width="75" Background="#FF373F3F" Foreground="White" FontSize="48" BorderBrush="Black" FontFamily="Arial" Padding="1,1,1,1" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Focusable="False"/>
+        <Button x:Name="Open" Style="{StaticResource menubutton}" Content="(" HorizontalAlignment="Right" Height="56" Margin="0,0,226,224" VerticalAlignment="Bottom" Width="75" Background="#FF2D3533" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Close" Style="{StaticResource menubutton}" Content=")" HorizontalAlignment="Right" Height="56" Margin="0,0,151,224" VerticalAlignment="Bottom" Width="75" Background="#FF2D3533" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Factorial1" Style="{StaticResource menubutton}" Content="x!" HorizontalAlignment="Right" Height="56" Margin="0,0,76,224" VerticalAlignment="Bottom" Width="75" Background="#FF2D3533" Foreground="White" FontSize="24" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Clear" Style="{StaticResource menubutton}" Content="AC" Margin="0,0,76,280" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="DeleteLast" Style="{StaticResource menubutton}" Content="C" Margin="0,0,1,280" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="PowerOf" Style="{StaticResource menubutton}" Content="x^y" Margin="0,0,301,168" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Root" Style="{StaticResource menubutton}" Content="ⁿ√x" Margin="0,0,301,56" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="Percent" Style="{StaticResource menubutton}" Content="x%y" Margin="0,0,301,112" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="EButton" Style="{StaticResource menubutton}" Content="e" Margin="0,0,301,1" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="PiButton" Style="{StaticResource menubutton}" Content="π" Margin="0,0,226,1" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF373F3F" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="MemoryAdd" Style="{StaticResource menubutton}" Content="M+" Margin="0,0,301,224" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="MemorySubstract" Style="{StaticResource menubutton}" Content="M-" Margin="0,0,301,280" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="MemoryRecall" Style="{StaticResource menubutton}" Content="MR" Margin="0,0,226,280" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="MemoryClear" Style="{StaticResource menubutton}" Content="MC" Margin="0,0,151,280" FontSize="24" RenderTransformOrigin="1,1" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False"/>
+        <Button x:Name="MemoryShow" Style="{StaticResource menubutton}" Content="M" Margin="338,0,0,514" FontSize="18" RenderTransformOrigin="1,1" Height="32" VerticalAlignment="Bottom" Foreground="White" Background="#FF2D3533" BorderBrush="Black" Focusable="False" HorizontalAlignment="Left" Width="34"/>
+    </Grid>
+</Window>
