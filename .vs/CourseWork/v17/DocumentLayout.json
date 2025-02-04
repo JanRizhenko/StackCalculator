@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\49174\\Desktop\\CourseWorks\\CourseWork1\\CourseWork\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EAC61FC0-786B-4562-BAE2-26B8877B6399}|Stack Calculator\\Stack Calculator.csproj|c:\\users\\49174\\desktop\\courseworks\\coursework1\\coursework\\stack calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAC61FC0-786B-4562-BAE2-26B8877B6399}|Stack Calculator\\Stack Calculator.csproj|solutionrelative:stack calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAC61FC0-786B-4562-BAE2-26B8877B6399}|Stack Calculator\\Stack Calculator.csproj|c:\\users\\49174\\desktop\\courseworks\\coursework1\\coursework\\stack calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EAC61FC0-786B-4562-BAE2-26B8877B6399}|Stack Calculator\\Stack Calculator.csproj|solutionrelative:stack calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,31 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\49174\\Desktop\\CourseWorks\\CourseWork1\\CourseWork\\Stack Calculator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Stack Calculator\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\49174\\Desktop\\CourseWorks\\CourseWork1\\CourseWork\\Stack Calculator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Stack Calculator\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAOYBAAAAAAAAAAAYwPoBAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T23:53:46.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\49174\\Desktop\\CourseWorks\\CourseWork1\\CourseWork\\Stack Calculator\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Stack Calculator\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\49174\\Desktop\\CourseWorks\\CourseWork1\\CourseWork\\Stack Calculator\\MainWindow.xaml",
-              "RelativeToolTip": "Stack Calculator\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-30T14:20:34.583Z",
-              "EditorCaption": ""
             }
           ]
         }
